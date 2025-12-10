@@ -109,6 +109,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 17px 16px 16px 16px;
+  margin-bottom: 16px;
 }
 
 .variables {
@@ -119,10 +120,26 @@ body {
   gap: 12px;
 }
 
-.var {
+.var-1 {
   font-size: 18px;
   font-weight: 500px;
   color: #ff5555;
+}
+
+.var-2 {
+  font-size: 18px;
+  font-weight: 500px;
+  color: #ffb21e;
+}
+.var-3 {
+  font-size: 18px;
+  font-weight: 500px;
+  color: #00bb8f;
+}
+.var-4 {
+  font-size: 18px;
+  font-weight: 500px;
+  color: #1125d6;
 }
 
 .scores {
@@ -132,15 +149,31 @@ body {
 }
 
 .score-num {
-    font-size: 18px;
-  font-weight: 700;  
-  color: #303B59;
+  font-size: 18px;
+  font-weight: 700;
+  color: #303b59;
 }
 
 .score-out-of {
-    font-size: 18px;
-    font-weight: 700; 
-    color: #9799A8;   
+  font-size: 18px;
+  font-weight: 700;
+  color: #9799a8;
 }
 
+.button {
+  width: 288px;
+  height: 56px;
+  background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+  border-radius: 128px;
+  margin-top: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.button > h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
